@@ -1,0 +1,48 @@
+package com.skybox.skyboxapi.config;
+
+import lombok.Data;
+import org.springframework.boot.context.properties.ConfigurationProperties;
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+import software.amazon.awssdk.auth.credentials.AwsBasicCredentials;
+import software.amazon.awssdk.auth.credentials.StaticCredentialsProvider;
+import software.amazon.awssdk.regions.Region;
+import software.amazon.awssdk.services.s3.S3Client;
+import software.amazon.awssdk.services.s3.presigner.S3Presigner;
+
+import java.net.URI;
+
+@Configuration
+@ConfigurationProperties(prefix = "cloudflare.r2")
+@Data
+public class CloudflareR2Config {
+
+    private String accountId;
+    private String accessKeyId;
+    private String secretAccessKey;
+    private String bucketName;
+    private String endpoint;
+    private String publicDomain;
+
+    @Bean
+    public S3Client s3Client() {
+        AwsBasicCredentials credentials = AwsBasicCredentials.create(accessKeyId, secretAccessKey);
+
+        return S3Client.builder()
+                .region(Region.US_EAST_1) // R2 doesn't use regions, but SDK requires it
+                .credentialsProvider(StaticCredentialsProvider.create(credentials))
+                .endpointOverride(URI.create(endpoint))
+                .build();
+    }
+
+    @Bean
+    public S3Presigner s3Presigner() {
+        AwsBasicCredentials credentials = AwsBasicCredentials.create(accessKeyId, secretAccessKey);
+
+        return S3Presigner.builder()
+                .region(Region.AP_SOUTHEAST_1)
+                .credentialsProvider(StaticCredentialsProvider.create(credentials))
+                .endpointOverride(URI.create(endpoint))
+                .build();
+    }
+}

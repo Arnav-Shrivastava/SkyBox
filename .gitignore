@@ -1,0 +1,46 @@
+# IDE folders
+.idea/
+.vscode/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Node modules (frontend)
+skyboxwebapp/node_modules/
+skyboxwebapp/dist/
+skyboxwebapp/.vite/
+
+# Maven (backend)
+skyboxapi/target/
+skyboxapi/.mvn/
+skyboxapi/mvnw
+skyboxapi/mvnw.cmd
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Application properties with sensitive data (backup)
+application.properties.backup
+
+# Build files
+*.class
+*.jar
+*.war
+*.ear
+
+# Package Files
+*.nar
+
+# JVM crash logs
+hs_err_pid*
+replay_pid*
