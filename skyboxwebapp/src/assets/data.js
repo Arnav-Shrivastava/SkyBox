@@ -91,11 +91,18 @@ export const testimonials = [
         quote: "My goal for SkyBox was to create an intuitive and responsive user interface that makes complex tasks feel effortless. Leveraging the latest frontend technologies, I ensured that every drag-and-drop, every click, and every interaction felt natural and performant. Building an engaging experience was key.",
     },
     {
-        name: "Abhinav",
+        name: "Abhinav Singh",
         role: "Backend & DevOps Engineer",
         company: "Student at SRM IST KTR",
         image: "https://thumbs.dreamstime.com/b/default-profile-picture-avatar-photo-placeholder-vector-illustration-default-profile-picture-avatar-photo-placeholder-vector-189495158.jpg",
         quote: "From designing the secure API endpoints to optimizing database performance, my focus was on the reliability and scalability of SkyBox. Implementing robust authentication and ensuring seamless data flow were critical. We aimed to deliver a rock-solid foundation that handles user data with integrity and speed.",
+    },
+    {
+        name: "Mehul Chaurasia",
+        role: "Frontend Architect",
+        company: "Student at SRM IST KTR",
+        image: "https://media.licdn.com/dms/image/v2/D5603AQE6nfOhy3jeiA/profile-displayphoto-shrink_100_100/B56ZR1HZAsGsAU-/0/1737131659576?e=1762992000&v=beta&t=GT4J69zniWqoozFvQSzmXge8rdotT_AOf7rGfWsjM2w",
+        quote: "My focus was on refining the Graphical User Interface (GUI) to ensure it was visually appealing and highly consistent. Leveraging Tailwind CSS was key to rapidly implementing a modern, polished design. I contributed to establishing a robust and scalable UI component library, ensuring every button, card, and modal was pixel-perfect and responsive. The goal was to make the front end look good and perform flawlessly, providing the user with an aesthetically pleasing and intuitive experience",
     }
 ];
 //side menu bar options

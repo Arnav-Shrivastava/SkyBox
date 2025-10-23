@@ -13,7 +13,7 @@ const TestimonialsSection = ({testimonials}) => {
                             See what our Developers have to say about SkyBox
                         </p>
                     </div>
-                    <div className="mt-16 grid gap-8 lg:grid-cols-3">
+                    <div className="mt-16 grid gap-8 lg:grid-cols-2">
                         {testimonials.map((testimonial,index) => (
                             <div key={index} className="bg-white rounded-xl shadow-md overflow-hidden transform transition duration-500 hover:scale-105">
                                 <div className="p-8">
