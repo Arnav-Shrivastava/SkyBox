@@ -1,4 +1,4 @@
-# 🌤️ SkyBox - Cloud File Storage Platform
+# 💭 SkyBox - Cloud File Storage Platform
 
 <div align="center">
 
@@ -10,7 +10,7 @@
 
 **A modern, secure cloud file storage solution with subscription-based plans and seamless file management.**
 
-[Live Demo](#) • [Documentation](./INTEGRATION_ARCHITECTURE.md) • [Report Bug](#) • [Request Feature](#)
+[Live Demo](https://skyboxstorage.pages.dev/) • [Documentation](./INTEGRATION_ARCHITECTURE.md)
 
 </div>
 
@@ -160,7 +160,7 @@ SkyBox is a full-stack cloud file storage platform that enables users to securel
 
 #### 1. Clone the repository
 ```bash
-git clone https://github.com/yourusername/skybox.git
+git clone https://github.com/Arnav-Shrivastava/SkyBox.git
 cd skybox
 ```
 
@@ -363,9 +363,9 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## 📧 Contact
 
-Your Name - [@yourtwitter](https://twitter.com/yourtwitter) - email@example.com
+Your Name - [Arnav Shrivastava](https://www.linkedin.com/in/arnav-shrivastava-55bb9a2a6/)
 
-Project Link: [https://github.com/yourusername/skybox](https://github.com/yourusername/skybox)
+Project Link: [https://github.com/Arnav-Shrivastava/SkyBox]
 
 ---
 
