@@ -94,7 +94,7 @@ export const testimonials = [
         name: "Abhinav Singh",
         role: "Backend & DevOps Engineer",
         company: "Student at SRM IST KTR",
-        image: "https://thumbs.dreamstime.com/b/default-profile-picture-avatar-photo-placeholder-vector-illustration-default-profile-picture-avatar-photo-placeholder-vector-189495158.jpg",
+        image: "https://media.licdn.com/dms/image/v2/D5603AQH_986r6QpMyQ/profile-displayphoto-scale_400_400/B56ZoS7hCRH8Ao-/0/1761254185437?e=1763596800&v=beta&t=jB0T0Iy0N8UzQvsDUGC45VKy251qsxG10horoS_ZvLo",
         quote: "From designing the secure API endpoints to optimizing database performance, my focus was on the reliability and scalability of SkyBox. Implementing robust authentication and ensuring seamless data flow were critical. We aimed to deliver a rock-solid foundation that handles user data with integrity and speed.",
     },
     {
